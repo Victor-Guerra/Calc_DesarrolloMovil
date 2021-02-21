@@ -426,6 +426,76 @@
                                     <constraint firstItem="38g-zM-yQl" firstAttribute="top" secondItem="MZa-SD-Z73" secondAttribute="top" id="zSw-6T-3YF"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ap-yP-NPO" userLabel="0_hilera">
+                                <rect key="frame" x="0.0" y="731" width="414" height="131"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekp-W6-Uz8" userLabel="0">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="131"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crd-5a-Wxd">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="131"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="crd-5a-Wxd" firstAttribute="top" secondItem="ekp-W6-Uz8" secondAttribute="top" id="Mnd-ui-eL7"/>
+                                            <constraint firstItem="crd-5a-Wxd" firstAttribute="leading" secondItem="ekp-W6-Uz8" secondAttribute="leading" id="YAm-0k-fAm"/>
+                                            <constraint firstItem="crd-5a-Wxd" firstAttribute="height" secondItem="ekp-W6-Uz8" secondAttribute="height" id="YqP-yN-eyW"/>
+                                            <constraint firstItem="crd-5a-Wxd" firstAttribute="width" secondItem="ekp-W6-Uz8" secondAttribute="width" id="Yvq-bD-Vxm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3S-4V-30d" userLabel=".">
+                                        <rect key="frame" x="207.5" y="0.0" width="103.5" height="131"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CH-0f-4Ok">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="•">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H78-Kh-8bZ" userLabel="=">
+                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="131"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1E-9z-Pd9">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="=">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="H78-Kh-8bZ" firstAttribute="height" secondItem="8ap-yP-NPO" secondAttribute="height" id="6Kr-M4-CRh"/>
+                                    <constraint firstAttribute="trailing" secondItem="D3S-4V-30d" secondAttribute="trailing" constant="103" id="PHv-4o-bZs"/>
+                                    <constraint firstItem="ekp-W6-Uz8" firstAttribute="width" secondItem="8ap-yP-NPO" secondAttribute="width" multiplier="0.5" id="QV0-b4-NOm"/>
+                                    <constraint firstItem="D3S-4V-30d" firstAttribute="height" secondItem="8ap-yP-NPO" secondAttribute="height" id="Roh-76-u2p"/>
+                                    <constraint firstAttribute="trailing" secondItem="H78-Kh-8bZ" secondAttribute="trailing" id="UCW-Em-1Yz"/>
+                                    <constraint firstItem="D3S-4V-30d" firstAttribute="width" secondItem="8ap-yP-NPO" secondAttribute="width" multiplier="0.25" id="Vvn-A0-F1Q"/>
+                                    <constraint firstItem="ekp-W6-Uz8" firstAttribute="height" secondItem="8ap-yP-NPO" secondAttribute="height" id="YNA-LZ-cjw"/>
+                                    <constraint firstItem="H78-Kh-8bZ" firstAttribute="width" secondItem="8ap-yP-NPO" secondAttribute="width" multiplier="0.25" id="cut-Kd-GQC"/>
+                                    <constraint firstItem="D3S-4V-30d" firstAttribute="top" secondItem="8ap-yP-NPO" secondAttribute="top" id="nfj-Ci-9d0"/>
+                                    <constraint firstItem="H78-Kh-8bZ" firstAttribute="top" secondItem="8ap-yP-NPO" secondAttribute="top" id="pQn-uk-bov"/>
+                                    <constraint firstItem="ekp-W6-Uz8" firstAttribute="leading" secondItem="8ap-yP-NPO" secondAttribute="leading" id="rj5-se-Ozf"/>
+                                    <constraint firstItem="ekp-W6-Uz8" firstAttribute="top" secondItem="8ap-yP-NPO" secondAttribute="top" id="sZK-8r-TR6"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -435,9 +505,12 @@
                             <constraint firstItem="MZa-SD-Z73" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.16" id="4D0-h3-G05"/>
                             <constraint firstItem="KIX-YN-hE2" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.16" id="88D-pj-OCC"/>
                             <constraint firstItem="VHa-LC-SRa" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.2" id="96K-39-6Ci"/>
+                            <constraint firstItem="8ap-yP-NPO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AJf-tu-Axh"/>
                             <constraint firstItem="VHa-LC-SRa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bx4-8S-rWI"/>
+                            <constraint firstItem="8ap-yP-NPO" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.16" id="CII-dv-OmN"/>
                             <constraint firstItem="Zxo-C5-Sd5" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.16" id="DF4-ve-D4b"/>
                             <constraint firstItem="B8L-ng-1kO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="G53-m1-dUy"/>
+                            <constraint firstItem="8ap-yP-NPO" firstAttribute="top" secondItem="MZa-SD-Z73" secondAttribute="bottom" id="KNA-kt-ztx"/>
                             <constraint firstItem="B8L-ng-1kO" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.16" id="Rro-KR-z8Y"/>
                             <constraint firstItem="Zxo-C5-Sd5" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="Sex-AM-8Rv"/>
                             <constraint firstItem="KIX-YN-hE2" firstAttribute="top" secondItem="VHa-LC-SRa" secondAttribute="bottom" id="WMn-44-Czq"/>
@@ -445,6 +518,7 @@
                             <constraint firstItem="Zxo-C5-Sd5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eMc-Mm-nyG"/>
                             <constraint firstItem="VHa-LC-SRa" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="fFd-hK-zi3"/>
                             <constraint firstItem="KIX-YN-hE2" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="gUe-Yp-vc8"/>
+                            <constraint firstItem="8ap-yP-NPO" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="i80-Cy-vDb"/>
                             <constraint firstItem="KIX-YN-hE2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kNc-dH-ZG0"/>
                             <constraint firstItem="B8L-ng-1kO" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="mSP-Kl-LWI"/>
                             <constraint firstItem="MZa-SD-Z73" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pkc-PA-m43"/>
