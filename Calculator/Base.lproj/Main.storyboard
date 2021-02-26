@@ -452,9 +452,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3S-4V-30d" userLabel=".">
                                         <rect key="frame" x="207.5" y="0.0" width="103.5" height="131"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CH-0f-4Ok">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CH-0f-4Ok">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.5" height="131"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <state key="normal" title="•">
@@ -463,13 +462,18 @@
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="6CH-0f-4Ok" firstAttribute="height" secondItem="D3S-4V-30d" secondAttribute="height" id="HBo-Cz-pug"/>
+                                            <constraint firstItem="6CH-0f-4Ok" firstAttribute="width" secondItem="D3S-4V-30d" secondAttribute="width" id="SEF-Z5-yZB"/>
+                                            <constraint firstItem="6CH-0f-4Ok" firstAttribute="leading" secondItem="D3S-4V-30d" secondAttribute="leading" id="VVZ-6R-XWJ"/>
+                                            <constraint firstItem="6CH-0f-4Ok" firstAttribute="top" secondItem="D3S-4V-30d" secondAttribute="top" id="pt5-ZF-QUe"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H78-Kh-8bZ" userLabel="=">
                                         <rect key="frame" x="310.5" y="0.0" width="103.5" height="131"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1E-9z-Pd9">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="60"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1E-9z-Pd9">
+                                                <rect key="frame" x="0.0" y="0.0" width="103.5" height="131"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <state key="normal" title="=">
@@ -478,6 +482,12 @@
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="u1E-9z-Pd9" firstAttribute="top" secondItem="H78-Kh-8bZ" secondAttribute="top" id="5Qn-ur-bdK"/>
+                                            <constraint firstItem="u1E-9z-Pd9" firstAttribute="height" secondItem="H78-Kh-8bZ" secondAttribute="height" id="5Zw-Pn-bco"/>
+                                            <constraint firstItem="u1E-9z-Pd9" firstAttribute="width" secondItem="H78-Kh-8bZ" secondAttribute="width" id="Dqo-FO-j4x"/>
+                                            <constraint firstItem="u1E-9z-Pd9" firstAttribute="leading" secondItem="H78-Kh-8bZ" secondAttribute="leading" id="pNb-ei-pkf"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
