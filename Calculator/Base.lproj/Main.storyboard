@@ -115,6 +115,9 @@
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" systemColor="labelColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="clearBuffers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sXG-lc-jby"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -454,7 +457,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="38g-zM-yQl" userLabel="+">
                                         <rect key="frame" x="310.5" y="0.0" width="103.5" height="131"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOS-NR-Gxg">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOS-NR-Gxg">
                                                 <rect key="frame" x="0.0" y="0.0" width="103.5" height="131"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
@@ -470,7 +473,7 @@
                                         <constraints>
                                             <constraint firstItem="bOS-NR-Gxg" firstAttribute="leading" secondItem="38g-zM-yQl" secondAttribute="leading" id="53B-Ty-W6S"/>
                                             <constraint firstItem="bOS-NR-Gxg" firstAttribute="width" secondItem="38g-zM-yQl" secondAttribute="width" id="JpN-d1-lGC"/>
-                                            <constraint firstItem="bOS-NR-Gxg" firstAttribute="top" secondItem="38g-zM-yQl" secondAttribute="top" constant="20" symbolic="YES" id="UpR-Ga-aWC"/>
+                                            <constraint firstItem="bOS-NR-Gxg" firstAttribute="top" secondItem="38g-zM-yQl" secondAttribute="top" id="UpR-Ga-aWC"/>
                                             <constraint firstItem="bOS-NR-Gxg" firstAttribute="height" secondItem="38g-zM-yQl" secondAttribute="height" id="jEV-oq-Nib"/>
                                         </constraints>
                                     </view>

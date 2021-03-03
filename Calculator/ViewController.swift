@@ -35,34 +35,50 @@ class ViewController: UIViewController {
                 .append(operatorText);
             ViewController.operandBuffer
                 .append((DisplayLabel.text! as NSString).floatValue);
-            DisplayLabel.text = "";
+            DisplayLabel.text = "0";
         }
+    }
+    
+    @IBAction func clearBuffers(_ sender: UIButton) {
+        DisplayLabel.text = "0";
+        ViewController.current_operation.removeAll();
+        ViewController.operandBuffer.removeAll();
     }
     
     @IBAction func processEquals(_ sender: UIButton) {
         ViewController.operandBuffer.append((DisplayLabel.text! as NSString).floatValue);
         var result: Float = 0.0;
+        //var temp: Float = 0.0;
+        var i: Int = 0;
         for operand in ViewController.operandBuffer {
-            var i = 0;
-            switch ViewController.current_operation[i] {
-            case "+":
-                result = result + operand;
-                break;
-            case "-":
-                result = result - operand;
-                break;
-            case "*":
-                result = result * operand;
-                break;
-            case "/":
-                result = result / operand;
-                break;
-            default:
-                break;
-                
+            if i == 0 {
+                result = operand;
+            }
+            else {
+                switch ViewController.current_operation[i - 1] {
+                case "+":
+                    result = result + operand;
+                    break;
+                case "-":
+                    result = result - operand;
+                    break;
+                case "*":
+                    result = result * operand;
+                    break;
+                case "/":
+                    result = result / operand;
+                    break;
+                default:
+                    break;
+                        
+                }
             }
             i += 1;
         }
+        
+        DisplayLabel.text = String(result);
+        ViewController.current_operation.removeAll();
+        ViewController.operandBuffer.removeAll();
     }
     
 }
